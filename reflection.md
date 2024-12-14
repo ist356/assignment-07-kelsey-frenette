@@ -22,4 +22,7 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+I cannot seem to get all my tests to pass and when I debug the file, this comes up: No module named 'code.menuitem'; 'code' is not a package
+AttributeError: module 'code' has no attribute '__path__'" and I am not sure how to fix it. 
+Also when running my tests, def test_tullyscraper_menu_csv_file_exists(): and def test_tullyscraper_menu_csv_file_proper_rows_and_cols(): fail and I'm also not sure how to edit my code to fix it.
+But when I was using the extractor, I was able to use the comments I had to realize where I made my error when cleaning the price. I realized that I had ">" instead of "," which is why that test kept failing.

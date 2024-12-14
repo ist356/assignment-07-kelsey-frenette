@@ -7,7 +7,7 @@ else:
 
 
 def clean_price(price:str) -> float:
-    price =price.replace ("<", "") # remove comma
+    price =price.replace (",", "") # remove comma
     price = price.replace ("$", "") # remove dollar sign
     return float(price)
 
